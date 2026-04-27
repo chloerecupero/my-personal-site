@@ -3,7 +3,6 @@ import { motion } from 'motion/react'
 import { XIcon } from 'lucide-react'
 import { Spotlight } from '@/components/ui/spotlight'
 import { Magnetic } from '@/components/ui/magnetic'
-import  Header from '@/components/Header'
 import {
   MorphingDialog,
   MorphingDialogTrigger,
