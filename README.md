@@ -50,7 +50,7 @@ git clone https://github.com/your-username/my-personal-site.git
 cd my-personal-site
 npm install
 npm run dev
-
+```
 ## 🔄 Customization
 
 This project started from the Nim template but was significantly redesigned:
