@@ -6,11 +6,10 @@ A minimalist, animated personal portfolio built with **Next.js 15**, **React 19*
 
 This site showcases my work, experience, and projects in a clean, user-focused way — with an emphasis on thoughtful design, smooth interactions, and real-world impact.
 
-🔗 Live site: (add your deployed link here)
-
+🔗 Live site: 
 ---
 
-## ✨ Features
+## Features
 
 - Clean, minimal portfolio layout
 - Interactive **project carousel** with smooth transitions
@@ -20,7 +19,7 @@ This site showcases my work, experience, and projects in a clean, user-focused w
 - Custom typography (including handwritten hero accent)
 - Resume integration + external links
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Next.js 15 (App Router)**
 - **React 19**
@@ -30,7 +29,7 @@ This site showcases my work, experience, and projects in a clean, user-focused w
 - **next/font** (custom typography)
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/your-username/my-personal-site.git
@@ -38,7 +37,7 @@ cd my-personal-site
 npm install
 npm run dev
 ```
-## 🔄 Customization
+## Customization
 
 This project started from the Nim template but was significantly redesigned:
 - Rebuilt navigation (top bar → sidebar)
