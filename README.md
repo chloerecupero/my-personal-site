@@ -20,18 +20,6 @@ This site showcases my work, experience, and projects in a clean, user-focused w
 - Custom typography (including handwritten hero accent)
 - Resume integration + external links
 
----
-
-## 🧠 Design Goals
-
-This project focuses on:
-- **Clarity over clutter** — simple layouts that highlight content
-- **Human-centered design** — approachable, personal tone
-- **Real-world storytelling** — not just what I built, but why it matters
-- **Subtle motion** — animations that enhance, not distract
-
----
-
 ## 🛠 Tech Stack
 
 - **Next.js 15 (App Router)**
@@ -41,7 +29,6 @@ This project focuses on:
 - **next-themes** (dark mode support)
 - **next/font** (custom typography)
 
----
 
 ## 🚀 Getting Started
 
