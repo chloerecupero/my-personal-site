@@ -1,31 +1,3 @@
-// 'use client'
-// import { TextEffect } from '@/components/ui/text-effect'
-// import Link from 'next/link'
-// import { usePathname } from 'next/navigation'
-
-// export function Header() {
-//   return (
-//     <header className="mb-8 flex items-center justify-between">
-//       <div>
-//         <Link href="/" className="font-medium text-black dark:text-white">
-//           Chloe Recupero
-//         </Link>
-//         <TextEffect
-//           as="p"
-//           preset="fade"
-//           per="char"
-//           className="text-zinc-600 dark:text-zinc-500"
-//           delay={0.5}
-//         >
-//           Aspiring Software Engineer
-//         </TextEffect>
-//       </div>
-//     </header>
-//   )
-// }
-
-// components/Header.tsx
-// components/Header.tsx
 'use client'
 
 import { TextEffect } from '@/components/ui/text-effect'
@@ -33,10 +5,11 @@ import Link from 'next/link'
 import { motion } from 'motion/react'
 
 const navItems = [
+  { label: 'Home', href: '/'},
   { label: 'About', href: '/about'},
-  { label: 'Projects', href: '#projects' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Contact', href: '#connect' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'Work Experience', href: '/experiences' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 export default function Header() {
@@ -68,7 +41,7 @@ export default function Header() {
         </nav>
       </motion.aside>
 
-      <header className="mb-8 flex items-center justify-between">
+      <header className="mb-4 flex items-center justify-between">
         <div>
           <Link href="/" className="font-medium text-black dark:text-white">
             Chloe Recupero

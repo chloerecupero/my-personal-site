@@ -40,8 +40,6 @@ const TRANSITION_SECTION = {
 }
 
 function ProjectImage({ src }: { src?: string | null }) {
-  console.log('Project image src:', src)
-
   if (!src || src.trim() === '') {
     return (
       <div className="aspect-video w-full rounded-xl bg-zinc-100 dark:bg-zinc-900 flex items-center justify-center text-sm text-zinc-500">
@@ -99,39 +97,63 @@ function MagneticSocialLink({
 export default function Personal() {
   return (
     <>
-      {/* <Header /> */}
       <motion.main
-        className="space-y-24"
+        className="space-y-12"
         variants={VARIANTS_CONTAINER}
         initial="hidden"
         animate="visible"
       >
         <motion.section
-          variants={VARIANTS_SECTION}
-          transition={TRANSITION_SECTION}
-        >
-          <div className="flex-1">
-            <p className="text-zinc-600 dark:text-zinc-400">
-              An incoming junior at the University of Washington, majoring in
-              Computer Science concentrating in Data Science and minoring in
-              French. I am a dedicated worker, driven by opportunities to
-              collaborate and foster new relationships. I am always seeking to
-              apply the knowledge gained in school through projects to the
-              outside world and create programs that will leave a lasting
-              impact.
-            </p>
-          </div>
-        </motion.section>
+  variants={VARIANTS_SECTION}
+  transition={TRANSITION_SECTION}
+  className="grid items-center gap-8 md:grid-cols-[1.4fr_0.8fr]"
+>
+  <div>
+    <p className="font-[family-name:var(--font-handwriting)] text-5xl text-zinc-800 dark:text-zinc-200">
+      Hi, I&apos;m Chloe
+    </p>
+
+    <p className="text-zinc-600 dark:text-zinc-400">
+      I&apos;m a Computer Science student at the University of Washington
+      concentrating in Data Science and minoring in French. I&apos;m interested
+      in building thoughtful software that connects technical systems with
+      real-world impact, especially across sustainability, mapping, and
+      user-centered tools.
+    </p>
+    <div className="mt-4 flex gap-3">
+  <a href="/experiences" className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white">
+    View Experience
+  </a>
+  <a href="/resume.pdf" className="rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-700">
+    Resume
+  </a>
+</div>
+  </div>
+
+  <div className="mx-auto w-40 overflow-hidden rounded-3xl bg-zinc-100 p-1 shadow-sm ring-1 ring-zinc-200/70 dark:bg-zinc-900 dark:ring-zinc-800 md:w-48">
+    <img
+      src="/images/chloe-1.jpg"
+      alt="Chloe Recupero"
+      className="grid items-center gap-10 md:grid-cols-[1.3fr_0.7fr]"
+    />
+  </div>
+  
+</motion.section>
 
         <motion.section
           variants={VARIANTS_SECTION}
           transition={TRANSITION_SECTION}
         >
-          <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+          <div className="mb-3 flex items-center justify-between">
+            <h3 className="mb-3 text-lg font-medium">Selected Projects</h3>
+            <a href="/projects" className="text-sm text-zinc-500 hover:text-zinc-900 transition">
+              View all →
+            </a>
+          </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
             {PROJECTS.map((project) => (
               <div key={project.name} className="space-y-2">
-                <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+                <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50 transition hover:-translate-y-1 hover:opacity-90">
                   <ProjectImage src={project.image} />
                 </div>
                 <div className="px-1">
@@ -189,43 +211,6 @@ export default function Personal() {
             ))}
           </div>
         </motion.section>
-{/* 
-        <motion.section
-          variants={VARIANTS_SECTION}
-          transition={TRANSITION_SECTION}
-        >
-          <h3 className="mb-3 text-lg font-medium">Blog</h3>
-          <div className="flex flex-col space-y-0">
-            <AnimatedBackground
-              enableHover
-              className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
-              transition={{
-                type: 'spring',
-                bounce: 0,
-                duration: 0.2,
-              }}
-            >
-              {BLOG_POSTS.map((post) => (
-                <Link
-                  key={post.uid}
-                  className="-mx-3 rounded-xl px-3 py-3"
-                  href={post.link}
-                  data-id={post.uid}
-                >
-                  <div className="flex flex-col space-y-1">
-                    <h4 className="font-normal dark:text-zinc-100">
-                      {post.title}
-                    </h4>
-                    <p className="text-zinc-500 dark:text-zinc-400">
-                      {post.description}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </AnimatedBackground>
-          </div>
-        </motion.section> */}
-
         <motion.section
           variants={VARIANTS_SECTION}
           transition={TRANSITION_SECTION}

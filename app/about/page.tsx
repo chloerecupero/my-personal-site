@@ -23,7 +23,7 @@ export default function AboutPage() {
       exit="hidden"
       variants={VARIANTS_SECTION}
       transition={TRANSITION_SECTION}
-      className="mx-auto max-w-3xl px-6 py-16"
+      className="w-full py-8"
     >
       <h1 className="mb-8 text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
         About Me
@@ -78,16 +78,14 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-
-    </motion.main>
-    <motion.div
+      <motion.div
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ delay: 0.2 }}
     className="mt-12"
   >
     <a
-      href="/Recupero Chloe SWE Resume (1).pdf" // put your resume in /public
+      href="/resume.pdf" 
       target="_blank"
       rel="noopener noreferrer"
       className="group relative block overflow-hidden rounded-2xl bg-zinc-300/30 p-[1px] dark:bg-zinc-600/30"
@@ -116,6 +114,8 @@ export default function AboutPage() {
       </div>
     </a>
   </motion.div>
+    </motion.main>
+    
   </div>
   )
 }

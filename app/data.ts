@@ -29,20 +29,34 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'cseed buildHER Project Lead',
+    name: 'Campus Map',
+    description: 'Interactive mapping tool that visualizes campus routes and key locations to make navigation more intuitive.',
+    link: '',
+    id: 'project3',
+    image: '/images/map.png'
+  },
+  {
+    name: 'cseed buildHER',
     description: 'Led mentorship cohorts and events to empower women builders and grow an inclusive tech community.',
     link: 'https://www.cseed.co/buildher-team',
     id: 'project2',
     image: '/images/cseed.png',
   },
-  {
-    name: 'Carbon Cart',
-    description:
-      'iOS app protoype helping consumers make environmentally conscientious grocery purchases',
-    link: 'https://www.linkedin.com/in/chloe-recupero-764842260/overlay/projects/1713160169/multiple-media-viewer/?profileId=ACoAAEAyNbwBhLaqW-1ttLppa_8Q7W_Y82ShIuw&treasuryMediaId=1732584981070&type=DOCUMENT',
-    id: 'project1',
-    image: '/images/carbon-cart.png',
-  },
+  // {
+  //   name: 'Carbon Cart',
+  //   description:
+  //     'iOS app protoype helping consumers make environmentally conscientious grocery purchases',
+  //   link: 'https://www.linkedin.com/in/chloe-recupero-764842260/overlay/projects/1713160169/multiple-media-viewer/?profileId=ACoAAEAyNbwBhLaqW-1ttLppa_8Q7W_Y82ShIuw&treasuryMediaId=1732584981070&type=DOCUMENT',
+  //   id: 'project1',
+  //   image: '/images/carbon-cart.png',
+  // },
+  // {
+  //   name: 'Undergraduate Research - SEAL Lab',
+  //   description: 'Conducted research at the UW’s Sensors Energy & Automation Laboratory, exploring systems that improve energy efficiency and automation through data-driven insights.',
+  //   link: 'https://www.uwseal.org/',
+  //   id: 'project4',
+  //   image: '/images/research.png'
+  // }
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
@@ -55,20 +69,12 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     id: 'work1',
   },
   {
-    company: 'Paul G. Allen School, University of Washington',
-    title: 'Direct Admit Seminar Teaching Assistant',
-    start: 'August 2025',
-    end: 'December 2025',
-    link: 'https://sites.google.com/cs.washington.edu/cse190bautumn2025',
-    id: 'work2',
-  },
-  {
     company: 'Sierra Nevada Corporation',
     title: 'Software Engineer Intern',
     start: 'June 2025',
     end: 'August 2025',
     link: 'https://sncorp.com',
-    id: 'work3',
+    id: 'work2',
   },
   {
     company: 'Bluco @ Station F',
@@ -76,15 +82,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     start: 'February 2025',
     end: 'April 2025',
     link: 'https://bluco.ai',
-    id: 'work4',
-  },
-  {
-    company: 'Coding With Kids',
-    title: 'Programming Instructor',
-    start: 'April 2024',
-    end: 'September 2024',
-    link: 'https://www.codingwithkids.com',
-    id: 'work5',
+    id: 'work3',
   },
 ]
 
@@ -120,10 +118,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/chloerecupero',
   },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/chloerecupero',
-  },
 ]
 
-export const EMAIL = 'crecup@uw.edu'
+export const EMAIL = 'chloerecupero04@gmail.com'
