@@ -104,41 +104,44 @@ export default function Personal() {
         animate="visible"
       >
         <motion.section
-  variants={VARIANTS_SECTION}
-  transition={TRANSITION_SECTION}
-  className="grid items-center gap-8 md:grid-cols-[1.4fr_0.8fr]"
->
-  <div>
-    <p className="font-[family-name:var(--font-handwriting)] text-5xl text-zinc-800 dark:text-zinc-200">
-      Hi, I&apos;m Chloe
-    </p>
+          variants={VARIANTS_SECTION}
+          transition={TRANSITION_SECTION}
+          className="grid items-center gap-8 md:grid-cols-[1.4fr_0.8fr]"
+        >
+          
+          <div>
 
-    <p className="text-zinc-600 dark:text-zinc-400">
-      I&apos;m a Computer Science student at the University of Washington
-      concentrating in Data Science and minoring in French. I&apos;m interested
-      in building thoughtful software that connects technical systems with
-      real-world impact, especially across sustainability, mapping, and
-      user-centered tools.
-    </p>
-    <div className="mt-4 flex gap-3">
-  <a href="/experiences" className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white">
-    View Experience
-  </a>
-  <a href="/resume.pdf" className="rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-700">
-    Resume
-  </a>
-</div>
-  </div>
+            <p className="font-[family-name:var(--font-handwriting)] text-5xl text-zinc-800 dark:text-zinc-200">
+              Hi, I&apos;m Chloe
+            </p>
 
-  <div className="mx-auto w-40 overflow-hidden rounded-3xl bg-zinc-100 p-1 shadow-sm ring-1 ring-zinc-200/70 dark:bg-zinc-900 dark:ring-zinc-800 md:w-48">
-    <img
-      src="/images/chloe-1.jpg"
-      alt="Chloe Recupero"
-      className="grid items-center gap-10 md:grid-cols-[1.3fr_0.7fr]"
-    />
-  </div>
-  
-</motion.section>
+            <p className="text-zinc-600 dark:text-zinc-400">
+              I&apos;m a Computer Science student at the University of Washington
+              concentrating in Data Science and minoring in French. I&apos;m interested
+              in building thoughtful software that connects technical systems with
+              real-world impact, especially across sustainability, mapping, and
+              user-centered tools.
+            </p>
+            <div className="mt-4 flex gap-3">
+          <a href="/experiences" className="rounded-full bg-zinc-900 px-4 py-2 text-sm text-white">
+            View Experience
+          </a>
+          <a href="/resume.pdf" className="rounded-full bg-zinc-100 px-4 py-2 text-sm text-zinc-700">
+            Resume
+          </a>
+        </div>
+          </div>
+
+          <div className="mx-auto w-40 overflow-hidden rounded-3xl bg-zinc-100 p-1 shadow-sm ring-1 ring-zinc-200/70 dark:bg-zinc-900 dark:ring-zinc-800 md:w-48">
+            <img
+              src="/images/chloe-1.jpg"
+              alt="Chloe Recupero"
+              className="grid items-center gap-10 md:grid-cols-[1.3fr_0.7fr]"
+            />
+          </div>
+          
+        </motion.section>
+
 
         <motion.section
           variants={VARIANTS_SECTION}

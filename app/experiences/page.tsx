@@ -10,8 +10,7 @@ const softwareExperience = [
     dates: 'Upcoming — Summer 2026',
     link: 'https://www.onxmaps.com',
     bullets: [
-      'Incoming intern working on [team/project TBD].',
-      'Excited to contribute to large-scale mapping and outdoor navigation tools.',
+      'Incoming software development intern contributing to mapping and outdoor navigation tools.',
     ],
   },
   {
@@ -20,32 +19,34 @@ const softwareExperience = [
     dates: 'June 2025 – August 2025',
     link: 'https://sncorp.com',
     bullets: [
-      'Add your strongest technical bullet here.',
-      'Focus on impact, scale, or performance improvements.',
-      'Mention specific technologies if possible.',
+      'Engineered software deployments to improve flight performance, autonomy, and system reliability for unmanned aircraft systems.',
+      'Developed threshold-based monitoring and caution logic for the power distribution unit using C++ and JavaScript, helping detect previously unknown power anomalies.',
+      'Implemented a new mission-computer GUI in React with a distributed software architecture, improving operator usability and in-flight efficiency.',
     ],
   },
   {
-    company: 'Bluco @ Station F',
+    company: 'Bluco AI @ Station F',
     role: 'Startup Software Engineer Intern',
     dates: 'February 2025 – April 2025',
     link: 'https://bluco.ai',
     bullets: [
-      'Worked in a fast-paced startup environment building [feature/system].',
-      'Collaborated closely with product/design to iterate quickly.',
+      'Built an operations dashboard using React, Next.js, and SQL to display live application data, key metrics, and recruiter insights.',
+      'Optimized SQL queries and API calls to improve backend performance and reduce database latency.',
+      'Tested and shipped UI/UX improvements to increase recruiter efficiency and improve the user experience.',
     ],
   },
+  
 ]
 
 const leadershipExperience = [
   {
-    company: 'University of Washington',
-    role: 'Direct Admit Seminar Teaching Assistant',
-    dates: 'August 2025 – December 2025',
+    company: 'Paul G. Allen School of Computer Science & Engineering',
+    role: 'Undergraduate Teaching Assistant',
+    dates: 'September 2025 – Present',
     link: 'https://www.cs.washington.edu',
     bullets: [
-      'Supported incoming CS students through mentorship and academic guidance.',
-      'Led discussions and helped students navigate the Allen School experience.',
+      'Collaborate with instructors to lesson plan, grade, and improve course materials for the direct admit seminar.',
+      'Mentor students on academic planning, professional development, and navigating the Allen School.',
     ],
   },
   {
@@ -54,8 +55,8 @@ const leadershipExperience = [
     dates: 'April 2024 – September 2024',
     link: 'https://www.codingwithkids.com',
     bullets: [
-      'Taught programming fundamentals to students through hands-on lessons.',
-      'Developed communication skills by breaking down complex concepts.',
+      'Created education modules and facilitated hands-on learning for middle school students in Scratch, Java, Python, HTML, and CSS.',
+      'Provided debugging support and technical guidance while explaining loops, conditionals, variables, and functional decomposition; recognized as a top-rated instructor with a 5.0 review score.',
     ],
   },
 ]

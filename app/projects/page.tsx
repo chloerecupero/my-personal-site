@@ -87,12 +87,12 @@ export default function ProjectsPage() {
             className="overflow-hidden rounded-4xl border border-zinc-200/70 bg-white/80 shadow-sm backdrop-blur dark:border-zinc-800/70 dark:bg-zinc-950/70 hover:shadow-md hover:-translate-y-0.5"
           >
             <div className="grid gap-0 md:grid-cols-[260px_1fr]">
-                <div className="relative h-full w-full bg-zinc-100 flex items-center justify-center">
-                    <img
+                <div className="relative h-full min-h-[320px] w-full overflow-hidden bg-zinc-100">
+                  <img
                     src={project.image}
                     alt={project.title}
-                    className="max-h-[70%] max-w-[70%] object-contain"
-                    />
+                    className="h-full w-full object-cover"
+                  />
                 </div>
 
               <div className="p-6 md:p-7">
