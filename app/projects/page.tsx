@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'Carbon Cart',
     subtitle: 'Sustainable grocery shopping iOS prototype',
-    image: '/images/carbon-cart.png',
+    image: '/images/carbon-vertical.png',
     description:
       'Carbon Cart helps consumers make more environmentally conscious grocery purchases by surfacing sustainability information in a simple, user-friendly way.',
     details:
@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'cseed buildHER',
     subtitle: 'Mentorship cohort and community programming',
-    image: '/images/cseed.png',
+    image: '/images/cseed-vertical.png',
     description:
       'buildHER empowers women builders through mentorship, community events, and structured support for early-stage project development.',
     details:
@@ -32,18 +32,18 @@ const projects = [
   {
     title: 'Campus Map',
     subtitle: 'Interactive mapping and navigation tool',
-    image: '/images/map.png',
+    image: '/images/map-vertical.png',
     description:
       'Interactive campus map designed to improve navigation by visualizing key locations and routes in a clear, user-friendly interface.',
     details:
       'Built to explore spatial data and routing concepts, with a focus on usability and how mapping tools can support safer and more intuitive navigation experiences.',
     tech: ['JavaScript', 'Mapping', 'Data Visualization', 'UX'],
-    link: '',
+    link: 'https://github.com/chloerecupero/campus-route-finder',
   },
   {
     title: 'SEAL Lab Research',
     subtitle: 'Sensors, Energy & Automation Laboratory',
-    image: '/images/research.png',
+    image: '/images/seal-vertical.png',
     description:
       'Undergraduate research in the University of Washington’s Sensors, Energy & Automation Laboratory, focused on data-driven approaches to energy efficiency and automation.',
     details:
@@ -87,11 +87,11 @@ export default function ProjectsPage() {
             className="overflow-hidden rounded-4xl border border-zinc-200/70 bg-white/80 shadow-sm backdrop-blur dark:border-zinc-800/70 dark:bg-zinc-950/70 hover:shadow-md hover:-translate-y-0.5"
           >
             <div className="grid gap-0 md:grid-cols-[260px_1fr]">
-                <div className="flex items-center justify-center bg-zinc-100 p-6">
+                <div className="flex justify-center bg-zinc-100">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-auto object-contain"
+                    className="w-full h-120 object-contain"
                   />
                 </div>
 

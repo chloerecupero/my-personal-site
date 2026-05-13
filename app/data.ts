@@ -81,7 +81,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     title: 'Startup Software Engineer Intern',
     start: 'February 2025',
     end: 'April 2025',
-    link: 'https://bluco.ai',
+    link: 'https://www.linkedin.com/company/bluco-ai/',
     id: 'work3',
   },
 ]

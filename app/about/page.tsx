@@ -37,16 +37,16 @@ export default function AboutPage() {
             track) and French.
           </p>
           <p>
-            I'm passionate about sustainable tech, user-first design, and
-            building tools that make complex data more human. Lately, I've been
-            exploring memory safety, climate-conscious systems, and how to bring
-            more transparency into the tools we use daily.
+            I'm passionate about building thoughtful, user centered technology that 
+            connects technical systems with real world impact. I'm especially interested 
+            in sustainability, mapping and data driven tools that make complex information
+            more intuitive and accessible.
           </p>
           <p>
             I care about projects that matter — ones that make life easier, more
-            ethical, and more equitable. Whether I'm working on a buffer
-            overflow exploit or designing a carbon footprint tracker, I strive
-            to balance depth with clarity.
+            ethical, and more equitable. My experience spans software engineering, 
+            startups, research and technical leadership, with interests in full stack 
+            development, data driven products, and human centered design.
           </p>
           <p>
             Outside of programming, I love running (I'm currently training for a

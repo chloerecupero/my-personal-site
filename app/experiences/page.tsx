@@ -28,7 +28,7 @@ const softwareExperience = [
     company: 'Bluco AI @ Station F',
     role: 'Startup Software Engineer Intern',
     dates: 'February 2025 – April 2025',
-    link: 'https://bluco.ai',
+    link: 'https://www.linkedin.com/company/bluco-ai/',
     bullets: [
       'Built an operations dashboard using React, Next.js, and SQL to display live application data, key metrics, and recruiter insights.',
       'Optimized SQL queries and API calls to improve backend performance and reduce database latency.',
